@@ -36,3 +36,54 @@ until
 when
 while
 yield
+
+array == [1, 2, 3]
+hash == {"a" => "b", c: "d"}
+
+$global_variable
+@@class_variable
+@instance_variable
+local_variable
+CONSTANT
+
+class SubClass < SuperClass
+end
+
+module Classable 
+end
+
+public
+protected
+private
+
+attr_writer
+attr_reader
+attr_accessor
+
+alias
+
+items.each {|item| print item}
+
+items.each do |item|
+print item
+end
+
+irb
+exit
+source file
+fork block
+jobs
+fg session
+kill session
+
+\t tab
+\n newline
+\r carriage return
+\f form feed
+\b backspace
+\a bell
+\e escape
+\s whitespace
+
+1..10
+1...10
